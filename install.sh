@@ -1,7 +1,8 @@
 #!/bin/bash
 
-# Download gojo.py from GitHub
-https://raw.githubusercontent.com/realgojo/tg-sender/main/gsender.py
+# Download gsender.py from GitHub
+wget https://raw.githubusercontent.com/realgojo/tg-sender/main/gsender.py
+
 # Install Python3 and pip
 sudo apt-get update
 sudo apt-get install -y python3 python3-pip
